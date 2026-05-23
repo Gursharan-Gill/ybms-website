@@ -1,32 +1,28 @@
-# YBMS Website
+# YBMS Website - Updated Package
 
-A deployable React/Vite website for Yellowbook Management Solutions.
+This package contains the updated YBMS website with:
 
-## Local preview
+- YBMS logo included in `public/logo.png`
+- Yellow/amber brand colour theme
+- Simplified website structure
+- Removed phone number
+- Updated email: office@ybms.net
+- Removed Expert Profile and Selected Experience sections
 
-1. Install Node.js LTS from https://nodejs.org
-2. Open this folder in VS Code or terminal
-3. Run:
+## Upload/update through GitHub Desktop
+
+1. Unzip this package.
+2. Open the folder named `ybms-website-updated`.
+3. Copy all contents inside this folder.
+4. Paste/replace them inside your local GitHub repository folder for `ybms-website`.
+5. Open GitHub Desktop.
+6. Commit changes with message: `Update YBMS branding and layout`.
+7. Click `Push origin`.
+8. Vercel will redeploy automatically.
+
+## Local preview, optional
 
 ```bash
 npm install
 npm run dev
 ```
-
-## Build for production
-
-```bash
-npm run build
-```
-
-The production website will be generated in the `dist` folder.
-
-## Deploy on Vercel
-
-1. Create a GitHub repository
-2. Upload this full folder to GitHub
-3. Go to https://vercel.com
-4. Import the GitHub repository
-5. Click Deploy
-6. Add custom domain: ybms.net
-7. Follow Vercel DNS instructions in GoDaddy
