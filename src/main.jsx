@@ -21,7 +21,7 @@ function App() {
             <img src="/logo.png" alt="YBMS logo" className="logo" />
             <div>
               <div className="brand-name">Yellowbook Management Solutions</div>
-              <div className="brand-tagline">Infrastructure • Asset Management • PBC</div>
+              <div className="brand-tagline">Infrastructure Delivery • Lifecycle Management</div>
             </div>
           </a>
           <nav className="nav">
@@ -36,11 +36,10 @@ function App() {
         <section className="hero">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <div className="eyebrow">Transport Infrastructure Advisory</div>
-              <h1>Practical expertise for better road infrastructure outcomes</h1>
+              <div className="eyebrow">Infrastructure Advisory</div>
+              <h1>Supporting better infrastructure performance, sustainability and maintenance outcomes</h1>
               <p>
-                Yellowbook Management Solutions provides specialist advisory support in road asset management,
-                performance-based road contracts, procurement, contract management and infrastructure project delivery.
+                We support infrastructure agencies and organizations in improving asset performance, maintenance practices and long-term sustainability through practical, performance-oriented approaches.
               </p>
               <div className="hero-actions">
                 <a className="button primary" href="mailto:office@ybms.net">
@@ -50,8 +49,8 @@ function App() {
               </div>
             </div>
             <div className="hero-card">
-              <div className="metric"><strong>30+</strong><span>Years of professional experience</span></div>
-              <div className="metric"><strong>20+</strong><span>Years in PBC / OPRC practice</span></div>
+              <div className="metric"><strong>30+</strong><span>Years in transport infrastructure development and maintenance</span></div>
+              <div className="metric"><strong>20+</strong><span>Years of experience in road asset management practices</span></div>
               <div className="metric"><strong>6+</strong><span>Countries of professional experience</span></div>
               <div className="metric"><strong>MDB</strong><span>World Bank, ADB and AfDB contexts</span></div>
             </div>
@@ -60,19 +59,19 @@ function App() {
 
         <section className="intro-cards container">
           <article className="card">
+            <ShieldCheck size={34} />
+            <h3>Design-Build-Maintain</h3>
+            <p>Integrated infrastructure delivery and maintenance approaches including PBC, OPRC/OPBRC and PPP models.</p>
+          </article>
+          <article className="card">
             <Road size={34} />
             <h3>Road Asset Management</h3>
             <p>Support for agencies seeking practical, data-informed and lifecycle-oriented management of road networks.</p>
           </article>
           <article className="card">
-            <ShieldCheck size={34} />
-            <h3>Performance-Based Contracts</h3>
-            <p>Design, implementation and review support for PBC, OPRC, OPBRC and PBMC models.</p>
-          </article>
-          <article className="card">
             <BriefcaseBusiness size={34} />
             <h3>Project & Contract Advisory</h3>
-            <p>Procurement, contract administration, FIDIC support and project management for infrastructure assignments.</p>
+            <p>Procurement, contract management and project delivery support for infrastructure projects.</p>
           </article>
         </section>
 
@@ -82,7 +81,7 @@ function App() {
               <div className="eyebrow dark">Services</div>
               <h2>Specialist advisory services for road agencies, consultants and development partners</h2>
               <p>
-                The focus is on practical implementation — helping clients move from plans and contracts to measurable infrastructure outcomes.
+                The focus is on practical implementation support - across planning, procurement, project delivery and sustainable infrastructure management.
               </p>
             </div>
             <div className="service-list">
@@ -99,10 +98,9 @@ function App() {
         <section id="about" className="about-section container">
           <div className="about-box">
             <div className="eyebrow dark">About YBMS</div>
-            <h2>Focused advisory support for infrastructure delivery and lifecycle road management</h2>
+            <h2>Focused advisory support for infrastructure delivery and lifecycle-based management</h2>
             <p>
-              YBMS works at the intersection of transport infrastructure, road asset management and performance-based contracting.
-              The firm supports clients with practical technical, contractual and implementation-oriented advice for complex infrastructure assignments.
+              YBMS works at the intersection of infrastructure delivery, lifecycle-based management and performance-oriented contracting approaches. The firm supports clients with practical technical, contractual and implementation-oriented advice for complex infrastructure assignments.
             </p>
           </div>
         </section>
@@ -110,15 +108,15 @@ function App() {
         <section id="contact" className="contact-section container">
           <div className="contact-box">
             <div>
-              <h2>Looking for practical support on road asset management or PBC implementation?</h2>
+              <h2>Looking for practical support for infrastructure delivery and lifecycle-based management?</h2>
               <p>
-                YBMS can support project preparation, contract structuring, implementation review, capacity building and troubleshooting of transport infrastructure assignments.
+                YBMS supports infrastructure projects through practical advisory services in project preparation, procurement, contract structuring, implementation support, lifecycle management and institutional capacity building.
               </p>
             </div>
             <div className="contact-card">
               <h3>Contact</h3>
               <a href="mailto:office@ybms.net" className="contact-line"><Mail size={18} /> office@ybms.net</a>
-              <div className="contact-line"><MapPin size={18} /> Mohali, Punjab, India</div>
+              <div className="contact-line"><MapPin size={18} /> Chandigarh, India</div>
             </div>
           </div>
         </section>
@@ -127,7 +125,7 @@ function App() {
       <footer className="footer">
         <div className="container footer-inner">
           <div>© 2026 Yellowbook Management Solutions. All rights reserved.</div>
-          <div>Transport Infrastructure | Road Asset Management | PBC / OPRC</div>
+          <div>Design-Build-Maintain • Asset Management • Project Advisory</div>
         </div>
       </footer>
     </div>
